@@ -13,31 +13,31 @@
 
 </div>
 
-## ✨ Features
+## Features
 - Patches `framework.jar`, `services.jar` and optionally `miui-services.jar` on the device
 - No other module needed to install modified apps
 - Supports Android 16 and ColorOS ROMs
 - Works offline: all tools are bundled
 - To patch a JAR that isn't from your system, put it in `/sdcard/mods_center/` and flash the module
 
-## 📋 Requirements
+## Requirements
 - Android 13 or newer
 - Magisk, KernelSU or APatch
 
-## 📥 Installation
+## Installation
 1. Download the latest zip from [**Releases**](https://github.com/Mods-Center/Apk-Signature-Verification-Patch/releases/latest).
 2. Flash it in Magisk, KernelSU or APatch.
 3. Reboot your device.
 
-## ⚠️ Notes
+## Notes
 - If you only need modified system apps to load, [Apk Protection Patch](https://github.com/Mods-Center/Apk-Protection-Patch) is the lighter option.
 
 ---
 
 <div align="center">
 
-Made by **[Kashi](https://t.me/kakashi1v1)** · part of **[Mods Center](https://github.com/Mods-Center)**
+Made by **[🅺🅰🆂🅷🅸](https://t.me/kakashi1v1)** · part of **[Mods Center](https://github.com/Mods-Center)**
 
-[📢 Channel](https://t.me/kashis_cringey_stuffs) · [💬 Support group](https://t.me/bootloop_discussion) · [🐞 Report a bug](https://github.com/Mods-Center/Apk-Signature-Verification-Patch/issues)
+[Channel](https://t.me/kashis_cringey_stuffs) · [Support group](https://t.me/bootloop_discussion) · [Report a bug](https://github.com/Mods-Center/Apk-Signature-Verification-Patch/issues)
 
 </div>
