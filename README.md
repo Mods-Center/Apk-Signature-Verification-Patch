@@ -17,7 +17,8 @@
 - Patches `framework.jar`, `services.jar` and optionally `miui-services.jar` on the device
 - No other module needed to install modified apps
 - Supports Android 16 and ColorOS ROMs
-- Works offline: all tools are bundled
+- Lightweight (about 12 MB) and quick: patching runs on the phone's own Android runtime, no Java bundled
+- Works offline
 - To patch a JAR that isn't from your system, put it in `/sdcard/mods_center/` and flash the module
 
 ## Requirements
@@ -30,6 +31,8 @@
 3. Reboot your device.
 
 ## Notes
+- Flash it again after every ROM update.
+- First boot after flashing takes longer while the system rebuilds its cache; this is normal.
 - If you only need modified system apps to load, [Apk Protection Patch](https://github.com/Mods-Center/Apk-Protection-Patch) is the lighter option.
 
 ---
