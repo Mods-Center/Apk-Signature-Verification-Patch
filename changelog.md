@@ -1,6 +1,9 @@
-## v1 (2)
+## v1 (3)
 
 ### Changelogs 
+**Nov 16, 2026**
+- Keep a downgraded update of a system app after a reboot (previously it was reverted to the stock version and uninstalled on boot).
+
 **Nov 6, 2025**
 - Improved codes for ColorOS roms
 - Added support for Android 16
