@@ -1,3 +1,17 @@
+## v4 (9)
+
+Disable APK signature verification — v4 (versionCode 8). Hotfix for #4.
+
+- Fixed install failing with `OutOfMemoryError` while decompiling services.jar on some Android 16 ROMs: APKEditor now loads one dex at a time, and retries with a bigger heap if it still runs out of memory.
+- Fixed the `XdConfig` helper class being silently skipped on Magisk/KernelSU (busybox `sort` has no `-V`). Without it framework.jar could fail at boot; the installer now aborts instead of ever installing such a jar.
+
+Previous v4 notes:
+
+
+- Complete APKEditor 1.4.9 engine (fixes "Decompile failed / inStream parameter is null" at install).
+- Install-time integrity gate: aborts safely if the rebuilt jar's non-code resources change, instead of installing a jar that crashes at boot (e.g. `Failed to parse debian.mime.types`).
+- Keep a downgraded system-app update after reboot.
+
 ## v4 (8)
 
 Disable APK signature verification — v4 (versionCode 6).
